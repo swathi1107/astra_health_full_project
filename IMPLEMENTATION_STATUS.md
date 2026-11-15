@@ -1,0 +1,5 @@
+# Implementation status
+
+Implemented in this starter package: FastAPI + SQLAlchemy persistence, SQLite demo mode and MySQL URL support, password hashing, signed HttpOnly cookie sessions, role checks on protected routes, astronaut creation/update/deactivation, mission creation/assignment, reading capture/history, five-valid-Earth-RESTING-reading baseline calculation, versioned pending baselines and medical review, research-rule deviation alerts, notification storage, audit logs, dashboard aggregates, trend API, CSV/PDF exports, shell caching, and Windows startup scripts.
+
+Known gaps / not represented as complete: full IndexedDB offline health-reading UI and encrypted local cache; complete edit/delete UI for every entity; granular astronaut-to-user account linking and fine-grained per-record medical authorisation; database migrations (create_all is not a migration system); full date/mission/activity analytics filters; notification preferences and password reset/change UI; comprehensive automated browser/API end-to-end test suite; production hardening and security review. These require further development and testing before any real-world health use.
